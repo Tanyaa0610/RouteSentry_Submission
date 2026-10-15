@@ -1,0 +1,9 @@
+route,n_scored,baseline_alert_count,if_alert_count,lof_alert_count,if_lof_agreement_rate,if_baseline_agreement_rate,lof_baseline_agreement_rate
+Ahmedabad-Mumbai,92,1,5,9,0.957,0.957,0.913
+Chennai-Bangalore,92,4,11,10,0.967,0.924,0.935
+Delhi-Chennai,92,0,3,1,0.957,0.967,0.989
+Delhi-Jaipur,92,2,10,10,1.000,0.913,0.913
+Kolkata-Bhubaneswar,92,0,0,0,1.000,1.000,1.000
+Mumbai-Delhi,92,0,0,0,1.000,1.000,1.000
+Mumbai-Pune,92,19,10,7,0.967,0.902,0.870
+ALL_ROUTES,644,26,39,37,0.978,0.952,0.946

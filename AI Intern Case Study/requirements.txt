@@ -1,0 +1,8 @@
+pytest>=8.0
+
+# Required only by the parallel ML evaluation (ml/, scripts/run_ml_evaluation.py).
+# The official rule-based pipeline (routesentry/, run.py) has zero dependencies
+# beyond the standard library -- see tests/test_baseline_preserved.py, which
+# asserts routesentry/ never imports these.
+scikit-learn>=1.4
+numpy>=1.26
